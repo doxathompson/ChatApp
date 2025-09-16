@@ -68,9 +68,9 @@ Open your browser and navigate to:
 
 ## 📂 Project Structure
 
-src/main/java/com/doxa/chatapp/        # Main application code
-src/main/resources/templates/chat.html # Chat UI template
-src/main/java/com/doxa/chatapp/model/  # Message model
+src/main/java/com/doxa/chatapp/            # Main application code
+src/main/resources/templates/chat.html     # Chat UI template
+src/main/java/com/doxa/chatapp/model/      # Message model
 src/main/java/com/doxa/chatapp/controller/ # WebSocket + HTTP controller
 src/main/java/com/doxa/chatapp/config/     # WebSocket configuration
 
