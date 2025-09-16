@@ -1,59 +1,84 @@
-# Real-Time Chat Application
+# 💬 Real-Time Chat Application
 
-A beginner-friendly real-time chat application built with Spring Boot, WebSocket (STOMP), and Bootstrap.
+![Java](https://img.shields.io/badge/Java-17+-blue?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green?logo=spring)
+![WebSocket](https://img.shields.io/badge/WebSocket-STOMP-orange)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![Maven](https://img.shields.io/badge/Maven-3.9-red?logo=apachemaven)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
 
-## Features
+A **beginner-friendly real-time chat application** built with **Spring Boot**, **WebSocket (STOMP)**, and **Bootstrap**.  
+This project demonstrates **real-time messaging**, multi-user chat, and a simple web interface — perfect for showcasing your backend skills.  
 
-- Real-time messaging using WebSocket and STOMP
-- Simple web interface with Bootstrap styling
-- Supports multiple users
+---
 
-## Technologies
+## 🌟 Features
+- 🔴 **Real-time messaging** with WebSocket & STOMP  
+- 👥 **Supports multiple users**  
+- 🎨 **Simple UI** built with Bootstrap 5  
+- ⚡ Lightweight and easy to run locally  
+- 📝 Beginner-friendly and educational  
 
-- Java
-- Spring Boot
-- Maven
-- WebSocket (SockJS, STOMP)
-- Bootstrap
+---
 
-## Getting Started
+## 🛠️ Technologies
+| Backend        | Frontend          | Tools        |
+|----------------|-----------------|-------------|
+| Java 17+       | Bootstrap 5     | Maven       |
+| Spring Boot    | HTML/CSS        | STOMP/WebSocket |
+| WebSocket/SockJS |                 |             |
+
+---
+
+## ⚡ Demo
+
+![ChatApp Demo](https://media.giphy.com/media/your-demo-gif-link.gif)  
+*Replace with a GIF or screenshot of your chat app in action for visual impact.*
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Java 17+
-- Maven
+- Java 17+  
+- Maven  
 
 ### Setup
+Clone the repository:
+```bash
+git clone https://github.com/doxathompson/ChatApp.git
+cd ChatApp
+```
 
-1. Clone the repository:
-    ```
-    git clone https://github.com/doxathompson/chatapp.git
-    cd chatapp
-    ```
+---
+## Build and run the application
+mvn spring-boot:run
 
-2. Build and run the application:
-    ```
-    mvn spring-boot:run
-    ```
+Open your browser and navigate to:
+👉 http://localhost:8080/chat
 
-3. Open your browser and go to:
-    ```
-    http://localhost:8080/chat
-    ```
+---
 
-### Usage
+## 💻 Usage
+1. Enter your name and message.
+2. Click Send.
+3. Messages appear in real-time for all connected users. 🎉
 
-- Enter your name and a message, then click **Send**.
-- Messages will appear in real time for all connected users.
+----
 
-## Project Structure
+## 📂 Project Structure
 
-- `src/main/java/com/doxa/chatapp/` - Main application code
-- `src/main/resources/templates/chat.html` - Chat UI template
-- `src/main/java/com/doxa/chatapp/model/ChatMessage.java` - Message model
-- `src/main/java/com/doxa/chatapp/controller/ChatController.java` - WebSocket and HTTP controller
-- `src/main/java/com/doxa/chatapp/config/WebSocketConfig.java` - WebSocket configuration
+src/main/java/com/doxa/chatapp/        # Main application code
+src/main/resources/templates/chat.html # Chat UI template
+src/main/java/com/doxa/chatapp/model/  # Message model
+src/main/java/com/doxa/chatapp/controller/ # WebSocket + HTTP controller
+src/main/java/com/doxa/chatapp/config/     # WebSocket configuration
 
-## License
 
-This project is for educational purposes.
+---
+
+
+
+
+
+
